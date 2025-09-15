@@ -1,3 +1,4 @@
+    // Bai 2: Doi Mau Nen //
 import { useState } from "react"
 import '../App.css'
 

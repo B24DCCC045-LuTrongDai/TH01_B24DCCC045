@@ -10,10 +10,14 @@ function App() {
       <Todolist />
       <h2>Bai 2:</h2>
       <DoiMauNen />
+      <h2>Bai 3"</h2>
+      <CartApp />
       <h2>Bai 4:</h2>
       <LikeDislikePost text='Hoc Reactjs co kho khong' />
       <LikeDislikePost text='Reactjs rat de hoc' />
       <LikeDislikePost text='Toi thich hoc Reactjs' />
+      <h2>Bai 5:</h2>
+      <QuizApp />
     </div>
   );
 }

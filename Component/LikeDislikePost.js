@@ -1,3 +1,4 @@
+            // Bai 4: Like / Dislike Post //
 import React, {useState} from "react";
 
 function LikeDislikePost(props) {

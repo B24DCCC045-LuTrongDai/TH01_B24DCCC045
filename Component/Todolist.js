@@ -1,3 +1,4 @@
+                    // Bai 1: To-do List //
 import React, { useState } from 'react';
 function Todolist() {
     const [task, setTask] = useState("");
@@ -23,7 +24,7 @@ function Todolist() {
                 onChange={(e) => setTask(e.target.value)}
             />
 
-            <button onClick={handleAddTask}>Add Task</button>
+            <button onClick={handleAddTask}>Them Task</button>
 
             <ul>
                 {tasks.map((t, index) => (
