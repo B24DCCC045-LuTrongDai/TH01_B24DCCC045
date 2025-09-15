@@ -1,4 +1,4 @@
-        // Bai 5: Tra loi cau hoi //
+        // Bai 5: Tra
 import { useState } from "react";
 function QuizApp() {
     const questions = [
@@ -43,9 +43,11 @@ function QuizApp() {
                     <div>
                         <span>Cau hoi {currentQuestion + 1}</span>/{questions.length}
                     </div>
+
                     <div>
                         {questions[currentQuestion].question}
                     </div>
+
                     <div>
                         {questions[currentQuestion].options.map((option) => (
                             <button key={option} onClick={() => handleAnswerOptionClick(option)} style={{ margin: 8 }}>
