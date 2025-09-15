@@ -6,7 +6,6 @@ function DoiMauNen() {
     const [color, setColor] = useState("")
     return (
         <div className='button'>
-            <h1>Doi Mau Nen</h1>
             <button onClick={() => setColor("red")}>Đỏ</button>
             <button onClick={() => setColor("blue")}>Xanh</button>
             <button onClick={() => setColor("yellow")}>Vàng</button>
