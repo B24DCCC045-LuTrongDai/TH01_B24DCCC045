@@ -7,7 +7,7 @@ function DoiMauNen() {
     return (
         <div className='button'>
             <button onClick={() => setColor("red")}>Đỏ</button>
-            <button onClick={() => setColor("blue")}>Xanh</button>
+            <button onClick={() => setColor("green")}>Xanh</button>
             <button onClick={() => setColor("yellow")}>Vàng</button>
             <HinhVuong color={color} />
         </div>
